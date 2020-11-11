@@ -16,15 +16,31 @@ public class FiexedCapacityStack<Item> {
         return N == 0;
     }
 
-    public int size(){
+    public int size() {
         return N;
     }
-    public void push(Item item){
+
+
+    public void resize(int max) {
+        Item[] temp = (Item[]) new Objects[max];
+        for (int i = 0; i < N; i++) {
+            temp[i] = a[i];
+        }
+        a = temp;
+    }
+
+    public void push(Item item) {
+        if (N == a.length) resize(2 * a.length);
         a[N++] = item;
     }
-    public Item pop(){
-        return a[--N];
+
+    public Item pop() {
+        Item item = a[--N];
+        a[N] = null; // java 回收
+        if (N > 0 && N == a.length / 4) resize(a.length / 2);
+        return item;
     }
+
 
 
 }
