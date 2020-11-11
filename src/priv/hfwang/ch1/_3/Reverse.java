@@ -1,6 +1,5 @@
-package priv.hfwang.ch1.ch1_3;
+package priv.hfwang.ch1._3;
 
-import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Stack;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;

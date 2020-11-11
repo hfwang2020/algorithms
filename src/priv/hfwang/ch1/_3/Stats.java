@@ -1,4 +1,4 @@
-package priv.hfwang.ch1.ch1_3;
+package priv.hfwang.ch1._3;
 
 import edu.princeton.cs.algs4.*;
 
@@ -31,11 +31,10 @@ public class Stats {
         int N = q.size();
         int[] a = new int[N];
         for (int i = 0; i < N; i++) {
-            a[i] = q.dequeue();
+            a[i] = q.outqueue();
         }
         return a;
     }
-
 
 
 }

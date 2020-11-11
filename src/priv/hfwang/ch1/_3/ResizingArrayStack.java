@@ -1,4 +1,4 @@
-package priv.hfwang.ch1.ch1_3;
+package priv.hfwang.ch1._3;
 
 import java.util.Iterator;
 
