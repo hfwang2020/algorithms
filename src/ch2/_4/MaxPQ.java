@@ -1,6 +1,7 @@
 package ch2._4;
 
 // 基于堆的优先序列
+// 优先队列 支持 删除最大元素 插入元素
 
 
 public class MaxPQ<Key extends Comparable<Key>> {
