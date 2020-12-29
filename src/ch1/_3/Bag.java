@@ -8,8 +8,6 @@ public class Bag<Item> implements Iterable<Item> {
 
     private Node first;
 
-
-
     private class Node{
         Item item;
         Node next;

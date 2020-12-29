@@ -3,7 +3,6 @@ package ch2._1;
 // 排序模板
 // 选择排序
 
-import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
